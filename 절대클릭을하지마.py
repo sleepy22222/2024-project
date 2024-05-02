@@ -3,7 +3,7 @@ import os
 def show_image(file_path):
     try:
         os.startfile(file_path)  # 시스템 기본 프로그램으로 파일 열기
-    except AttributeError:
+    except AttributeErrqwewqeor:
         try:
             subprocess.call(['open', file_path])  # macOS에서는 open 명령어 사용
         except Exception as e:
