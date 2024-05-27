@@ -1,11 +1,206 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>웹사이트</title>
-</head>
-<body>
-    <input style=""
-</body>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="canonical" href="https://tvshowgames.netlify.app/" />
+    <title>예능게임모음</title>
+    <meta
+      name="description"
+      content="신서유기 같은 예능에서 볼 수 있었던 음악퀴즈,인물퀴즈,이어말하기 등등 여러가지 게임들을 직접 해보자!"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="예능게임모음" />
+    <meta
+      property="og:description"
+      content="신서유기 같은 예능에서 볼 수 있었던 음악퀴즈,인물퀴즈,이어말하기 등등 여러가지 게임들을 직접 해보자!"
+    />
+    <!-- <meta property="og:image" content="http://www.mysite.com/myimage.jpg"> -->
+    <meta property="og:url" content="https://tvshowgames.netlify.app/" />
+    <link rel="stylesheet" href="shared.css" />
+    <link rel="stylesheet" href="landing.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jua&display=swap"
+      rel="stylesheet"
+    />
+    <script src="/main.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <a href="/"><p>예능게임모음</p></a>
+    </header>
+
+    <div id="fill-blanks" class="innerchoice">
+      <section id="blank">
+        <ul>
+          <a href="/GAME/4blank2/4blank2.html"
+            ><li>사자<br />성어</li></a
+          >
+          <a href="/GAME/proverb/proverb.html"
+            ><li>속담/<br />격언</li></a
+          >
+        </ul>
+        <a id="blankscreen-close" href="">X</a>
+      </section>
+    </div>
+
+    <div id="music-quiz" class="innerchoice">
+      <section id="music">
+        <ul>
+          <a href="/GAME/music/music.html"
+            ><li>1초<br />듣고</li></a
+          >
+
+          <a href="/GAME/musicmix/index.html"
+            ><li>믹스<br />퀴즈</li></a
+          >
+
+          <a href="/GAME/OST/ost.html"
+            ><li>OST<br />퀴즈</li></a
+          >
+        </ul>
+        <a id="music-close" href="">X</a>
+      </section>
+    </div>
+
+    <div id="per-quiz" class="innerchoice">
+      <section id="per">
+        <ul>
+          <a href="/GAME/individual/indiv.html"
+            ><li>인물<br />퀴즈</li></a
+          >
+          <a href="/GAME/individual/WhoYou/index.html"
+            ><li>Who<br />RU?</li></a
+          >
+          <a href="/GAME/individual/WhoYou/bingo/index.html"
+            ><li>BINGO<br /></li
+          ></a>
+        </ul>
+        <a class="screen-close" href="">X</a>
+      </section>
+    </div>
+
+    <main>
+      <section class="title">
+        <h1>도전!</h1>
+        <p id="comment">업데이트는 주말마다(희망)</p>
+        <br />
+      </section>
+
+      <section id="choice">
+        <ul id="games">
+          <a>
+            <li class="gameList" id="song">음악<br />퀴즈</li>
+          </a>
+
+          <a href="./GAME/idiom/idiom.html">
+            <li class="gameList">사자<br />성어</li>
+          </a>
+
+          <a>
+            <li class="gameList" id="fill">
+              <span id="up">이어<br />말하기 </span>
+            </li>
+          </a>
+
+          <a>
+            <li class="gameList" id="indiv">인물<br />퀴즈</li>
+          </a>
+
+          <a href="./GAME/capital/capital.html">
+            <li class="gameList">수도<br />퀴즈</li>
+          </a>
+
+          <a href="./GAME/football/football.html">
+            <li class="gameList">해축<br />퀴즈</li>
+          </a>
+        </ul>
+      </section>
+
+      <section id="instagram">
+        <p>↓업데이트 확인하기</p>
+
+        <div>
+          <a href="https://www.instagram.com/tvshowgame/" target="_blank"
+            ><img src="/instagram.png" alt="instagram" />@tvshowgame <br
+          /></a>
+        </div>
+
+        <p>중복정답/오류/건의사항은 DM주세요 :)</p>
+      </section>
+    </main>
+    <section id="guanggo">
+      <div id="web">
+        <div>
+          <ins
+            class="kakao_ad_area"
+            style="display: none"
+            data-ad-unit="DAN-8vT2ZvBk4guurGBZ"
+            data-ad-width="728"
+            data-ad-height="90"
+          ></ins>
+          <script
+            type="text/javascript"
+            src="//t1.daumcdn.net/kas/static/ba.min.js"
+            async
+          ></script>
+        </div>
+        <div id="no2">
+          <ins
+            class="kakao_ad_area"
+            style="display: none"
+            data-ad-unit="DAN-Tpp0lQhlWhVnmmiJ"
+            data-ad-width="728"
+            data-ad-height="90"
+          ></ins>
+          <script
+            type="text/javascript"
+            src="//t1.daumcdn.net/kas/static/ba.min.js"
+            async
+          ></script>
+        </div>
+      </div>
+
+      <div id="mobile">
+        <ins
+          class="kakao_ad_area"
+          style="display: none"
+          data-ad-unit="DAN-hDwQSfT7HbBnYveW"
+          data-ad-width="320"
+          data-ad-height="50"
+        ></ins>
+        <script
+          type="text/javascript"
+          src="//t1.daumcdn.net/kas/static/ba.min.js"
+          async
+        ></script>
+      </div>
+      <div id="side" class="web">
+        <ins
+          class="kakao_ad_area"
+          style="display: none"
+          data-ad-unit="DAN-eImcurNYsgIRui4X"
+          data-ad-width="160"
+          data-ad-height="600"
+        ></ins>
+        <script
+          type="text/javascript"
+          src="//t1.daumcdn.net/kas/static/ba.min.js"
+          async
+        ></script>
+      </div>
+    </section>
+    <footer id="footer"></footer>
+    <!-- Cloudflare Web Analytics -->
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"token": "c246e594372e42d2980e18a2f2f4b39f"}'
+    ></script>
+    <!-- End Cloudflare Web Analytics -->
+  <!-- Cloudflare Pages Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "c246e594372e42d2980e18a2f2f4b39f"}'></script><!-- Cloudflare Pages Analytics --></body>
 </html>
